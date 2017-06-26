@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<div>
+<div>
+<nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+       <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+      <li><a href="/about">About us</a></li>
+      <li><a href="/contact">Contact us</a></li>
+       <li><a href="/upload">Upload</a></li>
+  <li><a href="/uploaded">Uploaded</a></li>
+  <li class="active"><a href="/Login">Login<span class="sr-only">(current)</span></a></li>
+    </ul>
+</nav>
+<form action = "http://127.0.0.1:8081/process_get" method = "GET">
+         Username: <input type = "text" name = "username">  <br>
+         Password: <input type = "text" name = "password">
+         <input type = "submit" value = "Submit">
+      </form>
+      
+      
+      <div class="jumbotron"> <p>
+If you do not have an account <li><a href="/signup">Signup</a></li> 
+</p></div>
+
+</body>
+</html>
+ 
